@@ -1,0 +1,31 @@
+.container-header{
+  background-color: rgb(207, 189, 164);
+  height: 60px;  
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-body{
+  background-color: rgb(127, 178, 255);
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-demo1{
+  background-color: cadetblue;
+}
+
+.container-image{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-corpitio{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
