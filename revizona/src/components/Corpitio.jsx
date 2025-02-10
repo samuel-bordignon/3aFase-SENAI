@@ -1,5 +1,5 @@
 import Demo1 from './Demo1';
-
+import { FaDev } from "react-icons/fa";
 function Corpitio() {
 	return (
 		<div className="container-body">
@@ -8,6 +8,9 @@ function Corpitio() {
 				<img className="image-corpitio" src="musk.png" alt="" />
 				<img className="image-corpitio" src="john.jpg" alt="" />
 				<img className="image-corpitio" src="bolsoMinion.jpg" alt="" />
+				<img src="avisoIcon.svg" alt="" />
+				
+				
 			</div>
 			<Demo1 />
 		</div>

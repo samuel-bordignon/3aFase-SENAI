@@ -6,17 +6,6 @@ function Demo1() {
 	function alertaUsuario() {
 		alert('Você clicou no botão');
 	}
-
-    const ordenaArray = () => {
-        const array = [1, 2, 3]
-        const elemento = array[2]
-        let novoArray  = array.pop()
-        console.log(novoArray)
-        
-        const array2 = [novoArray.push(elemento)]
-        console.log(array2)
-    }
-    ordenaArray()
 	return (
 		<div className="container-demo1">
 			<h2>Demo1</h2>
