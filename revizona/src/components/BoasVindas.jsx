@@ -3,7 +3,7 @@ import React from 'react';
 function BoasVindas({ nome, mensagem }) {
 	return (
 		<div>
-			<div className="container-boas-vindas">
+			<div className="bg-red-500">
 				<p>Bem vindo {nome}</p>
 				<p>{mensagem}</p>
 			</div>

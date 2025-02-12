@@ -1,5 +1,5 @@
 {
-  "name": "revizona",
+  "name": "testeacessibilidade",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,12 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.0.6",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-icons": "^5.4.0",
     "tailwindcss": "^4.0.6"
   },
   "devDependencies": {
