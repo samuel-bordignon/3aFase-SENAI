@@ -39,6 +39,12 @@
   width: 50%;
 }
 
+.container-input{
+  display: flex;
+  gap: 20px
+}
+
+
 .btn-random {
   background-color: #034078;
   color: white;

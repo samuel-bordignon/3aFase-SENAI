@@ -8,4 +8,6 @@
 #root, body, html{
   min-height: 100vh;
   background-color: #0a1128;
+  color: white;
+  font-weight: bold;
  }
