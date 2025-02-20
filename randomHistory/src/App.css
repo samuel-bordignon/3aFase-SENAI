@@ -1,0 +1,93 @@
+.container-total{
+  display: flex;
+}
+
+.container-magia {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem;
+  gap: 3rem;
+}
+
+.container-emojis {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-emoji {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.magia-emoji {
+  font-size: 9rem;
+}
+
+.title-emojis{
+  color: white;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.btn-random {
+  background-color: #034078;
+  color: white;
+  border: none;
+  width: 40%;
+  border-radius: 10px;
+  padding: 0.8rem;
+}
+
+.btn-save {
+  background-color: #e31b2b;
+  color: white;
+  border: none;
+  width: 40%;
+  border-radius: 10px;
+  padding: 0.8rem;
+}
+
+.container-sideBar{
+  width: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+}
+
+.sideBar-icon{
+  width: 45px;
+  cursor: pointer;
+}
+
+/* 🔽 Responsividade para Mobile */
+@media (max-width: 800px) {
+  .container-emojis {
+    flex-direction: column;
+    /* Altera para coluna */
+    align-items: center;
+    /* Centraliza os itens */
+    justify-content: center;
+  }
+
+  .magia-emoji {
+    font-size: 6rem;
+    /* Reduz o tamanho do emoji no mobile */
+  }
+
+  .container-magia {
+    padding: 3rem;
+    /* Diminui o padding para melhor ajuste */
+  }
+}
